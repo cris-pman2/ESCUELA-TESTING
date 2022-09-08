@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validación del formulario de registro de usuarios de la pagina DemoQA" skipped="0" tests="1" time="14.26" timestamp="2022-08-14 12:05:54"><testcase name="Validar los campos de texto Nombre, Apellidos y Correo del formulario de DemoQA"><failure message="Error: Algunos de los campos estan vacios" type="java.lang.AssertionError">Error: Algunos de los campos estan vacios</failure><system-err>Error: Algunos de los campos estan vacios&#13;
+com.bdd.page.DemoQAPage.validamosQueLosCamposDeNombreApellidosYCorreoEstenLlenos(DemoQAPage.java:62)&#13;
+com.bdd.step.DemoQAStep.validamosQueLosCamposDeNombreApellidosYCorreoEstenLlenos(DemoQAStep.java:37)&#13;
+com.bdd.stepdefinition.DemoQAStepDefinition.validamosQueLosCamposDeNombreApellidosYCorreoEstenLlenos(DemoQAStepDefinition.java:46)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

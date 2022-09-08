@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2fe77c1cf32f6d1151a53dceba27c856f83c22761e1191ea4c4c3329c3cc48d1.html">Validaci&oacute;n Del Formulario De Registro De Usuarios De La Pagina DemoQA</a></span>
+                > <span class="truncate-60"><a
+                    href="550d9e0d96fa7962736c269ed08014b3a681d60df9928c669582d7b82b300b57.html">Validar el correcto funcionamiento del formulario Student Registration de DemoQA </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-08-2022 19:09</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validación Del Formulario De Registro De Usuarios De La Pagina DemoQA</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como propietario del sistemas DemoQA
+Quiero probar el formulario de registro de usuarios
+Para validar el buen funcionamiento de los elementos y registro
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="eae8d1ab6afa2145cbfe0e1d2a70fdc39e09d73236abeb5f524725b1218bf2b3.html">FEATURE DEMOQA
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="adfa7fcedb76c67233dc746e449c6aa3679f80b80fc42635284cbee5bdd3aa1b.html">DEMOQA ESCENARIO 02
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Validar el correcto funcionamiento del formulario Student Registration de DemoQA
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que abre la pagina web DemoQA en el navegador "&lt;NAVEGADOR&gt;"<br>Y realizar click en el botón Forms<br>Y realizar click en el menú Practice Form<br>Y escribir "&lt;FIRST NAME&gt;" en el cuadro de texto Nombre y "&lt;LAST NAME&gt;" en el cuadro de texto Apellidos<br>Y escribir "&lt;EMAIL&gt;" en el cuadro de texto Correo<br>Y seleccionar "&lt;GENDER&gt;" Male en Gender<br>Y escribir "&lt;MOBILE&gt;" en el cuadro de texto Mobile<br>Y escribir "&lt;DATE OF BIRTH&gt;" como Date of Birth en el calendario<br>Y seleccionar "&lt;SUBJECT&gt;" en el cuadro de texto Subjects<br>Y seleccionar "&lt;HOBBIES&gt;" en Hobbies<br>Y seleccionar una imagen de la ruta "&lt;PICTURE&gt;"<br>Y escribir "&lt;CURRENT ADDRESS&gt;" en el cuadro de texto Current Address<br>Y seleccionar "&lt;STATE&gt;" en el combo State y "&lt;CITY&gt;" en el combo City<br>Cuando damos enter<br>Entonces validar que se haya registrado correctamente</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Error al registrar</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.bdd.page.DemoQAPage.validarQueSeHayaRegistradoCorrectamente(DemoQAPage.java:171)<br />com.bdd.step.DemoQAStep.validarQueSeHayaRegistradoCorrectamente(DemoQAStep.java:100)<br />com.bdd.stepdefinition.DemoQAStepDefinition.validarQueSeHayaRegistradoCorrectamente(DemoQAStepDefinition.java:113)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5283193009519928605.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="94a062f287f0db8de9836d9f87711f61fed23c9c3b42c141bb46d6a45486a175.png" title=" Example #1: {NAVEGADOR=Edge, FIRST NAME=, LAST NAME=Aguirre, EMAIL=markalex@outlook.com, GENDER=Male, MOBILE=9505476312, DATE OF BIRTH=06/06/1998, SUBJECT=Maths, Commerce, HOBBIES=Sports,Music, PICTURE=C:\Users\maguirrl\Documents\ejemplo.txt, CURRENT ADDRESS=Trujillo, STATE=NCR, CITY=Noida}" width="1920"/>
+                <img src="94a062f287f0db8de9836d9f87711f61fed23c9c3b42c141bb46d6a45486a175.png" title=" Y realizar click en el bot&oacute;n Forms" width="1920"/>
+                <img src="94a062f287f0db8de9836d9f87711f61fed23c9c3b42c141bb46d6a45486a175.png" title=" Realizar click en el bot&oacute;n forms" width="1920"/>
+                <img src="94a062f287f0db8de9836d9f87711f61fed23c9c3b42c141bb46d6a45486a175.png" title=" Y realizar click en el bot&oacute;n Forms (completed)" width="1920"/>
+                <img src="3479590ca94fb5162689204c2b562249e21d8124f002ee76675e69f0ba49c611.png" title=" Y realizar click en el men&uacute; Practice Form" width="1920"/>
+                <img src="e5ae616c4d5d5e949374320925eb83c5ec09312b51fb2eed3c18e62dcf39a11b.png" title=" Y escribir &quot;&quot; en el cuadro de texto Nombre y &quot;Aguirre&quot; en el cuadro de texto Apellidos" width="1920"/>
+                <img src="e5ae616c4d5d5e949374320925eb83c5ec09312b51fb2eed3c18e62dcf39a11b.png" title=" Escribir en el cuadro de texto nombre y en el cuadro de texto apellidos: , Aguirre" width="1920"/>
+                <img src="e5ae616c4d5d5e949374320925eb83c5ec09312b51fb2eed3c18e62dcf39a11b.png" title=" Y escribir &quot;&quot; en el cuadro de texto Nombre y &quot;Aguirre&quot; en el cuadro de texto Apellidos (completed)" width="1920"/>
+                <img src="ce7b04e0f453a6c8509a616c568c2eacc76117cff6c5b6410c209ac393671ace.png" title=" Y escribir &quot;markalex@outlook.com&quot; en el cuadro de texto Correo" width="1920"/>
+                <img src="ce7b04e0f453a6c8509a616c568c2eacc76117cff6c5b6410c209ac393671ace.png" title=" Escribir en el cuadro de texto correo: markalex@outlook.com" width="1920"/>
+                <img src="ce7b04e0f453a6c8509a616c568c2eacc76117cff6c5b6410c209ac393671ace.png" title=" Y escribir &quot;markalex@outlook.com&quot; en el cuadro de texto Correo (completed)" width="1920"/>
+                <img src="486847ce38d20843a04e0cf7187e91f8f5826c94830ab859e420bede4740ed46.png" title=" Y seleccionar &quot;Male&quot; Male en Gender" width="1920"/>
+                <img src="486847ce38d20843a04e0cf7187e91f8f5826c94830ab859e420bede4740ed46.png" title=" Seleccionar male en gender: Male" width="1920"/>
+                <img src="486847ce38d20843a04e0cf7187e91f8f5826c94830ab859e420bede4740ed46.png" title=" Y seleccionar &quot;Male&quot; Male en Gender (completed)" width="1920"/>
+                <img src="3f7ebef0bd07c292c2f2bc1317fd21c3f53c63382759791351e1ec9fc68ffc49.png" title=" Y escribir &quot;9505476312&quot; en el cuadro de texto Mobile" width="1920"/>
+                <img src="3f7ebef0bd07c292c2f2bc1317fd21c3f53c63382759791351e1ec9fc68ffc49.png" title=" Escribir en el cuadro de texto mobile: 9505476312" width="1920"/>
+                <img src="74b2830fbb1a8c08272a03f34f561563648f8ad5124995e923d49deca322a01e.png" title=" Y escribir &quot;06/06/1998&quot; como Date of Birth en el calendario" width="1920"/>
+                <img src="74b2830fbb1a8c08272a03f34f561563648f8ad5124995e923d49deca322a01e.png" title=" Escribir como date of birth en el calendario: 06/06/1998" width="1920"/>
+                <img src="74b2830fbb1a8c08272a03f34f561563648f8ad5124995e923d49deca322a01e.png" title=" Y escribir &quot;06/06/1998&quot; como Date of Birth en el calendario (completed)" width="1920"/>
+                <img src="579e0657b2bf96db0bdb4c1658aec0baf859aa86c5b001beadb6a5aecc3644b6.png" title=" Y seleccionar &quot;Maths, Commerce&quot; en el cuadro de texto Subjects" width="1920"/>
+                <img src="579e0657b2bf96db0bdb4c1658aec0baf859aa86c5b001beadb6a5aecc3644b6.png" title=" Seleccionar en el cuadro de texto subjects: Maths, Commerce" width="1920"/>
+                <img src="579e0657b2bf96db0bdb4c1658aec0baf859aa86c5b001beadb6a5aecc3644b6.png" title=" Y seleccionar &quot;Maths, Commerce&quot; en el cuadro de texto Subjects (completed)" width="1920"/>
+                <img src="63fc029edf6f3b7597e0b96a95ff80b062bead0840ef708c243493c27bf0b8f8.png" title=" Y seleccionar &quot;Sports,Music&quot; en Hobbies" width="1920"/>
+                <img src="63fc029edf6f3b7597e0b96a95ff80b062bead0840ef708c243493c27bf0b8f8.png" title=" Seleccionar en hobbies: Sports,Music" width="1920"/>
+                <img src="63fc029edf6f3b7597e0b96a95ff80b062bead0840ef708c243493c27bf0b8f8.png" title=" Y seleccionar &quot;Sports,Music&quot; en Hobbies (completed)" width="1920"/>
+                <img src="92313ef18b7774279310b028029124f6fbb9eb68d9313bf8be7ed9ee99515c34.png" title=" Y seleccionar una imagen de la ruta &quot;C:\Users\maguirrl\Documents\ejemplo.txt&quot;" width="1920"/>
+                <img src="92313ef18b7774279310b028029124f6fbb9eb68d9313bf8be7ed9ee99515c34.png" title=" Seleccionar una imagen de la ruta: C:\Users\maguirrl\Documents\ejemplo.txt" width="1920"/>
+                <img src="92313ef18b7774279310b028029124f6fbb9eb68d9313bf8be7ed9ee99515c34.png" title=" Y seleccionar una imagen de la ruta &quot;C:\Users\maguirrl\Documents\ejemplo.txt&quot; (completed)" width="1920"/>
+                <img src="54e43ee04b314b7ac8a30beeaaec4a7d948d4c554c4cb42133d735d5d7723775.png" title=" Y escribir &quot;Trujillo&quot; en el cuadro de texto Current Address" width="1920"/>
+                <img src="54e43ee04b314b7ac8a30beeaaec4a7d948d4c554c4cb42133d735d5d7723775.png" title=" Escribir en el cuadro de texto current address: Trujillo" width="1920"/>
+                <img src="54e43ee04b314b7ac8a30beeaaec4a7d948d4c554c4cb42133d735d5d7723775.png" title=" Y escribir &quot;Trujillo&quot; en el cuadro de texto Current Address (completed)" width="1920"/>
+                <img src="976c14c3ef4f97dea638f801e2436654aeed334caad3791f878a6aa96bb393d1.png" title=" Y seleccionar &quot;NCR&quot; en el combo State y &quot;Noida&quot; en el combo City" width="1920"/>
+                <img src="976c14c3ef4f97dea638f801e2436654aeed334caad3791f878a6aa96bb393d1.png" title=" Seleccionar en el combo state y en el combo city: NCR, Noida" width="1920"/>
+                <img src="976c14c3ef4f97dea638f801e2436654aeed334caad3791f878a6aa96bb393d1.png" title=" Y seleccionar &quot;NCR&quot; en el combo State y &quot;Noida&quot; en el combo City (completed)" width="1920"/>
+                <img src="aa3c8ddc066e58c368b92689fed2fae6b6f4e18a240c1dc71ef38ad81619a9dc.png" title=" Cuando damos enter" width="1920"/>
+                <img src="af4ef22141a4ad894075c5ffaa3f9e07694a1d2e2b8368f97b580e781f13f8d3.png" title=" Entonces validar que se haya registrado correctamente" width="1920"/>
+                <img src="af4ef22141a4ad894075c5ffaa3f9e07694a1d2e2b8368f97b580e781f13f8d3.png" title=" Validar que se haya registrado correctamente: <span class='failing-color'>FAILURE</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validación del filtro de la página Juntoz" skipped="0" tests="2" time="20.89" timestamp="2022-08-13 05:59:31"><testcase name="Validar Filtro parametros"><failure message="No se encontraron productos" type="java.lang.AssertionError">No se encontraron productos</failure><system-err>No se encontraron productos&#13;
+com.bdd.page.JuntozPage.validarQueSeEncuentrenResultados(JuntozPage.java:88)&#13;
+com.bdd.step.JuntozStep.validarQueSeEncuentrenResultados(JuntozStep.java:28)&#13;
+com.bdd.stepdefinition.JuntozStepDefinition.validarQueSeEncuentrenResultados(JuntozStepDefinition.java:34)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

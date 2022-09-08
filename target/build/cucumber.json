@@ -1,0 +1,130 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 20,
+        "name": "Validar el correcto funcionamiento del formulario Sign Up de DemoBlaze",
+        "description": "",
+        "id": "validación-del-formulario-de-registro-de-usuarios-de-la-pagina-demoblaze;validar-el-correcto-funcionamiento-del-formulario-sign-up-de-demoblaze;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12196728900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que abre la pagina web DemoBlaze en el navegador \"Edge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Edge",
+                  "offset": 50
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.queAbreLaPaginaWebDemoBlazeEnElNavegador(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1773676200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "realizar click en el botón Sign Up",
+            "match": {
+              "location": "DemoBlazeStepDefinition.realizarClickEnElBotónSignUp()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1236707400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "escribir \"cris_pman2\" en el cuadro de texto Username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "cris_pman2",
+                  "offset": 10
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribirEnElCuadroDeTextoUsername(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 1059890000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "escribir \"qwerty12345678\" en el cuadro de texto Password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qwerty12345678",
+                  "offset": 10
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.escribirEnElCuadroDeTextoPassword(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 912572900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "realizar click en el botón Sign Up del formulario",
+            "match": {
+              "location": "DemoBlazeStepDefinition.realizarClickEnElBotónSignUpDelFormulario()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 1066404000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validar si el usuario ya existe y aceptar",
+            "match": {
+              "location": "DemoBlazeStepDefinition.validarSiElUsuarioYaExiste()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_DEMOBLAZE"
+          },
+          {
+            "name": "@DEMOBLAZE_ESCENARIO_01"
+          }
+        ]
+      }
+    ],
+    "name": "Validación del formulario de registro de usuarios de la pagina DemoBlaze",
+    "description": "  Como propietario del sistema DemoBlaze\n  Quiero probar el formulario de registro de usuarios\n  Para validar el buen funcionamiento de los elementos y registro",
+    "id": "validación-del-formulario-de-registro-de-usuarios-de-la-pagina-demoblaze",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/DemoBlaze.feature",
+    "tags": [
+      {
+        "name": "@FEATURE_DEMOBLAZE",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+@FEATURE_DEMOBLAZE
+Característica: Validación del formulario de registro de usuarios de la pagina DemoBlaze
+  Como propietario del sistema DemoBlaze
+  Quiero probar el formulario de registro de usuarios
+  Para validar el buen funcionamiento de los elementos y registro
+
+  @DEMOBLAZE_ESCENARIO_01
+  Esquema del escenario: Validar el correcto funcionamiento del formulario Sign Up de DemoBlaze [90m# src/test/resources/web/DemoBlaze.feature:10[0m
+    [36mDado que abre la pagina web DemoBlaze en el navegador "<NAVEGADOR>"[0m
+    [36mY realizar click en el botón Sign Up[0m
+    [36mY escribir "<USERNAME>" en el cuadro de texto Username[0m
+    [36mY escribir "<PASSWORD>" en el cuadro de texto Password[0m
+    [36mCuando realizar click en el botón Sign Up del formulario[0m
+    [36mEntonces validar si el usuario ya existe y aceptar[0m
+
+    Ejemplos: 
+
+  @FEATURE_DEMOBLAZE @DEMOBLAZE_ESCENARIO_01
+  Esquema del escenario: Validar el correcto funcionamiento del formulario Sign Up de DemoBlaze [90m# src/test/resources/web/DemoBlaze.feature:20[0m
+    [32mDado [0m[32mque abre la pagina web DemoBlaze en el navegador "[0m[32m[1mEdge[0m[32m"[0m                                [90m# DemoBlazeStepDefinition.queAbreLaPaginaWebDemoBlazeEnElNavegador(String)[0m
+    [32mY [0m[32mrealizar click en el botón Sign Up[0m                                                        [90m# DemoBlazeStepDefinition.realizarClickEnElBotónSignUp()[0m
+    [32mY [0m[32mescribir "[0m[32m[1mcris_pman2[0m[32m" en el cuadro de texto Username[0m                                      [90m# DemoBlazeStepDefinition.escribirEnElCuadroDeTextoUsername(String)[0m
+    [32mY [0m[32mescribir "[0m[32m[1mqwerty12345678[0m[32m" en el cuadro de texto Password[0m                                  [90m# DemoBlazeStepDefinition.escribirEnElCuadroDeTextoPassword(String)[0m
+    [32mCuando [0m[32mrealizar click en el botón Sign Up del formulario[0m                                    [90m# DemoBlazeStepDefinition.realizarClickEnElBotónSignUpDelFormulario()[0m
+    [32mEntonces [0m[32mvalidar si el usuario ya existe y aceptar[0m                                          [90m# DemoBlazeStepDefinition.validarSiElUsuarioYaExiste()[0m

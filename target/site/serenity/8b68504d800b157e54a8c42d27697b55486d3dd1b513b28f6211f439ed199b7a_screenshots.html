@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="be8e8854fe1c3b6c45b0a8104f4660b7e685b47d5eb142923bf87394fd35de93.html">Validaci&oacute;n Del Formulario De Registro De Usuarios De La Pagina Demoblaze</a></span>
+                > <span class="truncate-60"><a
+                    href="8b68504d800b157e54a8c42d27697b55486d3dd1b513b28f6211f439ed199b7a.html">Validar el correcto funcionamiento del formulario Sign Up de DemoBlaze </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-08-2022 14:39</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Validación Del Formulario De Registro De Usuarios De La Pagina Demoblaze</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como propietario del sistema DemoBlaze
+Quiero probar el formulario de registro de usuarios
+Para validar el buen funcionamiento de los elementos y registro
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="6185577b3d0995b946f69a5c84982a529e1d884d3c1b7a791bfa26603315eb0b.html">FEATURE DEMOBLAZE
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="272ac2470a593fa343cfa5742db80fca1109cd26995ac75f1c08ad2b16538cc6.html">DEMOBLAZE ESCENARIO 01
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Validar el correcto funcionamiento del formulario Sign Up de DemoBlaze
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que abre la pagina web DemoBlaze en el navegador "&lt;NAVEGADOR&gt;"<br>Y realizar click en el botón Sign Up<br>Y escribir "&lt;USERNAME&gt;" en el cuadro de texto Username<br>Y escribir "&lt;PASSWORD&gt;" en el cuadro de texto Password<br>Cuando realizar click en el botón Sign Up del formulario<br>Entonces validar si el usuario ya existe y aceptar</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="71aab496cccd281167a1f21e60816ff37825a890b67e90298ac06a27a78f01bc.png" title=" Example #1: {NAVEGADOR=Edge, USERNAME=cris_pman2, PASSWORD=qwerty12345678}" width="1366"/>
+                <img src="71aab496cccd281167a1f21e60816ff37825a890b67e90298ac06a27a78f01bc.png" title=" Y realizar click en el bot&oacute;n Sign Up" width="1366"/>
+                <img src="71aab496cccd281167a1f21e60816ff37825a890b67e90298ac06a27a78f01bc.png" title=" Realizar click en el bot&oacute;n sign up" width="1366"/>
+                <img src="71aab496cccd281167a1f21e60816ff37825a890b67e90298ac06a27a78f01bc.png" title=" Y realizar click en el bot&oacute;n Sign Up (completed)" width="1366"/>
+                <img src="5201722e8eab9dd408234438409a8ccc28353b729aa0f5ec93d33767425f31dc.png" title=" Y escribir &quot;cris_pman2&quot; en el cuadro de texto Username" width="1366"/>
+                <img src="5201722e8eab9dd408234438409a8ccc28353b729aa0f5ec93d33767425f31dc.png" title=" Escribir en el cuadro de texto username: cris_pman2" width="1366"/>
+                <img src="5201722e8eab9dd408234438409a8ccc28353b729aa0f5ec93d33767425f31dc.png" title=" Y escribir &quot;cris_pman2&quot; en el cuadro de texto Username (completed)" width="1366"/>
+                <img src="e9d63b34a16681b5c0ea8f227c6af417af7ca149cc532429debdab87f5e42e38.png" title=" Y escribir &quot;qwerty12345678&quot; en el cuadro de texto Password" width="1366"/>
+                <img src="e9d63b34a16681b5c0ea8f227c6af417af7ca149cc532429debdab87f5e42e38.png" title=" Escribir en el cuadro de texto password: qwerty12345678" width="1366"/>
+                <img src="e9d63b34a16681b5c0ea8f227c6af417af7ca149cc532429debdab87f5e42e38.png" title=" Y escribir &quot;qwerty12345678&quot; en el cuadro de texto Password (completed)" width="1366"/>
+                <img src="40942029082e5869f9879571d151e002827cd614f49c0c47ac4c361ce272904a.png" title=" Cuando realizar click en el bot&oacute;n Sign Up del formulario" width="1366"/>
+                <img src="40942029082e5869f9879571d151e002827cd614f49c0c47ac4c361ce272904a.png" title=" Realizar click en el bot&oacute;n sign up del formulario" width="1366"/>
+                <img src="40942029082e5869f9879571d151e002827cd614f49c0c47ac4c361ce272904a.png" title=" Cuando realizar click en el bot&oacute;n Sign Up del formulario (completed)" width="1366"/>
+                <img src="9e39881352837e5e1edf5791426d3b52e526b9bd7d189b658c72f51b7fa0d2b1.png" title=" Entonces validar si el usuario ya existe y aceptar" width="1366"/>
+                <img src="9e39881352837e5e1edf5791426d3b52e526b9bd7d189b658c72f51b7fa0d2b1.png" title=" Validar si el usuario ya existe y aceptar" width="1366"/>
+                <img src="9e39881352837e5e1edf5791426d3b52e526b9bd7d189b658c72f51b7fa0d2b1.png" title=" Entonces validar si el usuario ya existe y aceptar (completed)" width="1366"/>
+                <img src="9e39881352837e5e1edf5791426d3b52e526b9bd7d189b658c72f51b7fa0d2b1.png" title=" Example #1: {NAVEGADOR=Edge, USERNAME=cris_pman2, PASSWORD=qwerty12345678} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.54</span>
+</div>
+</body>
+</html>

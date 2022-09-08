@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validación del formulario de registro de usuarios de la pagina DemoQA" skipped="0" tests="1" time="0.0" timestamp="2022-08-14 07:09:45"><testcase name="Validar el correcto funcionamiento del formulario Student Registration de DemoQA"><failure message="Error al registrar" type="java.lang.AssertionError">Error al registrar</failure><system-err>Error al registrar&#13;
+com.bdd.page.DemoQAPage.validarQueSeHayaRegistradoCorrectamente(DemoQAPage.java:171)&#13;
+com.bdd.step.DemoQAStep.validarQueSeHayaRegistradoCorrectamente(DemoQAStep.java:100)&#13;
+com.bdd.stepdefinition.DemoQAStepDefinition.validarQueSeHayaRegistradoCorrectamente(DemoQAStepDefinition.java:113)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
